@@ -1,0 +1,7 @@
+/*.log
+/target
+/*-init.clj
+.rebel_readline_history
+/resources/public/js/compiled
+out
+.nrepl-port

@@ -1,0 +1,76 @@
+.aerolyze-calculator {
+    max-width: 55%;
+    min-width: 550px;
+    margin: auto;
+    padding: 5px;
+    border: black 1px solid;
+}
+
+.aerolyze-calculator {
+    width: 100%;
+}
+
+.calculator-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.calculator-left, .calculator-input, .calculator-right {
+    display: inline-block;
+}
+
+.calculator-input {
+    width: 30%;
+}
+
+.calculator-left{
+    width: 40%;
+}
+
+.calculator-right {
+    width: 30%; 
+}
+
+.calculator-row {
+    margin-bottom: 2px;
+}
+
+.calculator-header {
+    font-size: 18px !important;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: left !important;
+}
+
+.calculator-left {
+    float: left;
+    text-align: left;
+}
+
+.calculator-right {
+    text-align: right;
+}
+
+.calculator-total {
+    padding-top: 2px;
+    border-top: black 1px solid;
+}
+
+
+#top-section {
+    margin-top: 0;
+}
+
+#grand-total {
+    margin-bottom: 0;
+}
+
+.calculator-input > input, .calculator-input > select {
+    width: 100%;
+}
+
+.error-text {
+    width: 100%;
+    color: red !important;
+}

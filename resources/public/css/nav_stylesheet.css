@@ -1,0 +1,75 @@
+.nav_outer_container {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* .spacer { */
+/*     width: 100%; */
+/*     height: 5em; */
+/* } */
+
+.nav_container, .nav_sub_container, .nav_bottom {
+    background-color: #ccc;
+    border-bottom: 1px solid #316bad;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+
+.nav_container, .nav_sub_container {
+    width: 100%;
+    /* height: 5em; */
+}
+
+.nav_sub_container {
+    top: 3.5em;
+    border-top: 1px solid #316bad;
+}
+
+.nav_button {
+    display: inline-block; 
+    color: #000033;
+    height: .5em;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: .30em;
+    padding-right: .35em;
+    padding-left: .35em;
+    margin-right: .225em;
+    margin-left: .225em;
+    line-height: 0em;
+}
+
+.nav_button:hover {
+    background-color: #316bad;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.nav_button:active {
+    background-color: #316bad;
+    color: #fff;
+}
+
+.nav_bottom {
+    max-width: 700px;
+    position: absolute;
+    display: inline-block;
+    border: 1.5px solid #316bad;
+    /* border-left: 1px solid #316bad; */
+    margin-bottom: 58px; /* This pushes the main content below the top Menu */
+    top: 1.8em;
+}
+
+.nav_bottom > .nav_button {
+    min-width: 12em;
+    min-height: .8em;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: .9em;
+    text-align: left;
+}
