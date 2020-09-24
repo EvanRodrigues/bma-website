@@ -1,37 +1,23 @@
 # bma_website
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+The old version of the Blue Moon Analytics website that I worked on. Thank you to them for giving me permission to share the code for my portfolio. If you'd like to see the site in action, you can watch a video demo [here](https://evanrodrigues.net/#/bma_website).
 
-## Development Mode
+## Job Description
 
-### Start Cider from Emacs:
+I worked under contract as a Front-End Developer for Blue Moon Analytics where my job was to convert their old site into a serverless single page application using reagent and re-frame. After converting the website, my job was to add new features to improve the sites functionality. I developed a new nav bar for desktop and mobile. I also developed a subscription pricing tool for potential clients to better understand subscription costs.
 
-Put this in your Emacs config file:
+## Technologies Used
 
-```
-(setq cider-cljs-lein-repl
-	"(do (require 'figwheel-sidecar.repl-api)
-         (figwheel-sidecar.repl-api/start-figwheel!)
-         (figwheel-sidecar.repl-api/cljs-repl))")
-```
+-   HTML
+-   CSS
+-   [Clojure](https://clojure.org/) / [ClojureScript](https://github.com/clojure/clojurescript)
+-   [Reagent](https://github.com/reagent-project/reagent)
+-   [Re-frame](https://github.com/day8/re-frame)
 
-Navigate to a clojurescript file and start a figwheel REPL with `cider-jack-in-clojurescript` or (`C-c M-J`)
+## What I learned
 
-### Run application:
-
-```
-lein dev
-```
-
-Figwheel will automatically push cljs changes to the browser.
-
-Wait a bit, then browse to [http://localhost:3449](http://localhost:3449).
-
-## Production Build
-
-
-To compile clojurescript to javascript:
-
-```
-lein build
-```
+-   The basics of JavaScript frameworks
+-   The basics of the software development lifecycle
+-   State management
+-   Responsive design
+-   Git
